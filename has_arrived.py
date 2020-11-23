@@ -17,9 +17,10 @@ message = EmailMessage()
 recipient = ['laura.neves2008@hotmail.com', 'heisson70@gmail.com']
 sender = 'laura.neves2008@gmail.com'
 password = input('Enter your password: ')
+package = input('What package are you expecting? ')
 message['From'] = sender
 message['To'] = recipient
-message['Subject'] = 'Package Status'
+message['Subject'] = package + ' Status'
 body = 'Package Status: '+ status
 message.set_content(body)
 
