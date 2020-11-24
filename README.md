@@ -1,3 +1,3 @@
-# Apostas
+# Packages tracking
 
-Repositório criado para as apostas feitas com o Orlando
+Algorithm created to monitor a package en route status and send updates via email.
