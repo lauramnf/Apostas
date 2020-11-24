@@ -24,7 +24,7 @@ message['Subject'] = package + ' Status'
 body = 'Package Status: '+ status
 message.set_content(body)
 
-#Comfiguring SMTP to send it with a Gmail account
+#Setting SMTP to send email with a Gmail account
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 try:
